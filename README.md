@@ -6,6 +6,10 @@ Data Source:
 1. https://ourworldindata.org/covid-deaths
 2. https://ourworldindata.org/covid-vaccinations
 
+
+
+
+
 File: Nashville_DataCleaning.sql
 # Guided Data Cleaning using MySQL
 Data: Nashville Housing Data
