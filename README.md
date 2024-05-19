@@ -26,7 +26,7 @@ Data Source:
 
 
 # Finding and hence Plotting Correlations between certain features of a movie dataset
-File: MovieCorrelation_PortfolioProject
+File: MovieCorrelation_PortfolioProject.ipynb
 
 Data Source:
 1. https://www.kaggle.com/datasets/danielgrijalvas/movies
