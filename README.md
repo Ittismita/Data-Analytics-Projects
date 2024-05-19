@@ -8,7 +8,9 @@ Data Source:
 2. https://ourworldindata.org/covid-vaccinations
 
 
-# Guided Data Visualisation using Tableau
+# Guided Data Visualization using Tableau
+
+Data: COVID Deaths and Vaccinations, 2020-2021
 
 https://public.tableau.com/views/COVID19_17151109128980/Dashboard1?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link
 
