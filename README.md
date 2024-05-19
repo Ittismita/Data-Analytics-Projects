@@ -1,4 +1,3 @@
-File: COVID_Project.sql
 # Guided Data Exploration using MySQL
 File: COVID_Project.sql
 
