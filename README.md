@@ -1,5 +1,7 @@
 File: COVID_Project.sql
 # Guided Data Exploration using MySQL
+File: COVID_Project.sql
+
 Data: COVID Deaths and Vaccinations, 2020-2021
 
 Data Source: 
@@ -10,8 +12,10 @@ Data Source:
 
 
 
-File: Nashville_DataCleaning.sql
+
 # Guided Data Cleaning using MySQL
+File: Nashville_DataCleaning.sql
+
 Data: Nashville Housing Data
 
 Data Source: 
