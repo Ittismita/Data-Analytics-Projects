@@ -6,7 +6,7 @@ Data Source:
 2. https://ourworldindata.org/covid-vaccinations
 
 File: Nashville_DataCleaning.sql
-# Guided Data Cleaning using MySql
+# Guided Data Cleaning using MySQL
 Data: Nashville Housing Data
 Data Source: 
 1. https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx
