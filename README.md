@@ -1,3 +1,4 @@
+### Data Analyst portfolio projects by Alex Freberg
 # Guided Data Exploration using MySQL
 File: COVID_Project.sql
 
@@ -25,7 +26,7 @@ Data Source:
 1. https://github.com/AlexTheAnalyst/PortfolioProjects/blob/main/Nashville%20Housing%20Data%20for%20Data%20Cleaning.xlsx
 
 
-# Finding and hence Plotting Correlations between certain features of a movie dataset
+# Finding and hence, Plotting Correlations between certain features of a movie dataset
 File: MovieCorrelation_PortfolioProject.ipynb
 
 Data Source:
