@@ -1,5 +1,5 @@
+# Data Exploration using MySQL
 
-#Data Exploration using MySQL
 File: COVID_Project.sql
 
 Data: COVID Deaths and Vaccinations, 2020-2021
@@ -9,7 +9,7 @@ Data Source:
 2. https://ourworldindata.org/covid-vaccinations
 
 
-#Data Visualization using Tableau
+# Data Visualization using Tableau
 
 Data: COVID Deaths and Vaccinations, 2020-2021
 
@@ -17,7 +17,7 @@ https://public.tableau.com/views/COVID19_17151109128980/Dashboard1?:language=en-
 
 
 
-#Data Cleaning using MySQL
+# Data Cleaning using MySQL
 File: Nashville_DataCleaning.sql
 
 Data: Nashville Housing Data
