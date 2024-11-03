@@ -226,7 +226,7 @@ The data contains 17 columns and 1000 rows:
 
 **Data given:**
 
-- Unite Price = 45.79$
+- Unit Price = 45.79$
 - Quantity = 7$
 
  COGS = 45.79 * 7 = 320.53 $
