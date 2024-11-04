@@ -37,7 +37,7 @@ join Portfolio_Project.nashvillehousing as B
 set A.PropertyAddress=COALESCE(A.PropertyAddress, B.PropertyAddress)
 where A.PropertyAddress is NULL;
 
-# splitting propert address column to adress and city
+# splitting property address column to address and city
 -- using LOCATE intead of CHARINDEX as MySQL isnt recognizing CHARINDEX function
 select
 substring(PropertyAddress,1,LOCATE(',',PropertyAddress)-1) as Address,
@@ -59,7 +59,7 @@ set Property_City=substring(PropertyAddress,LOCATE(',',PropertyAddress)+1,LENGTH
 
 
 # splitting the OwnerAddress column into three columns
--- PARSENAME() only considers '.' as delimitter, hence reppalcing ',' with '.'
+-- PARSENAME() only considers '.' as delimitter, hence replacing ',' with '.'
 -- in mysql there is no parsename inbuilt function , so we use any of SUBSTRING_INDEX(), TRIM(), CONCAT()
 -- substring_index(column_name,'delimitter',1)=returns string upto first occurence of delimitter given
 -- substring_index(column_name,'delimitter',2)=returns string upto second occurence of delimitter given and so on
