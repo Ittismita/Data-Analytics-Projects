@@ -5,7 +5,7 @@ Objective: To analyze whether the new additions to a platform (new courses, exam
 The first half of 2022 was expected to be profitable for the company. The reason was the hypothesized increased student engagement after the release of several new features on the company’s website at end-2021. These included enrolling in career tracks and testing knowledge through practice, course, and career track exams. Also expanding the course library to increase user engagement and the platform’s audience as more topics were covered. By comparing different metrics, the effectiveness of these new features can be measured and the overall engagement of the users.
 
 ### 1. DATA PREPARATION USING SQL
-File: SQLSol.sql
+File: SQLsol.sql
 1. Created a View: purchases_info
    - Created new columns. 
 3. Splitted into periods:
@@ -16,7 +16,7 @@ File: SQLSol.sql
    a student.
 
 ### 2. DATA PREPROCESSING WITH PYTHON
-File: 
+File: trackinguserengagement.ipynb
 1. Studied data with the help of distribution plots like seaborn's kdeplots.
 2. Examined skewness of the datasets and hence, removed outliers.
 
@@ -32,6 +32,8 @@ After removing outliers:
 ![plot](https://github.com/Ittismita/Data.Analytics/blob/main/Tracking%20User%20Engagement/plot1.png)
 
 ### 3. DATA ANALYSIS WITH EXCEL - HYPOTHESIS TESTING
+File: ExcelSol.xlsx
+
 1. Calculated
    
    a. Mean
