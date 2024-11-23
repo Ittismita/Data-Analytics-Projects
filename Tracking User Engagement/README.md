@@ -119,11 +119,11 @@ P(A∩B) = P(A)×P(B)
 
 Where:
 
-P(A∩B) = 7639/15840, is the probability of both A and B occurring
+P(A∩B) = 640/15840, is the probability of both A and B occurring
 
-P(A) = 8841/15840,is the probability of A occurring
+P(A) = 7639/15840,is the probability of A occurring
 
-P(B) = 640/15840, is the probability of B occurring
+P(B) = 8841/15840, is the probability of B occurring
 
 So, 
 
