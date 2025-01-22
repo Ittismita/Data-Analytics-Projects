@@ -1,4 +1,4 @@
-## Walmart Sales Analysis
+## Walmart Sales Data Analysis
 Link to the dataset: https://github.com/Princekrampah/WalmartSalesAnalysis/blob/master/WalmartSalesData.csv.csv
 
 Project to expore Walmart Sales answering business questions related to product,sales and customers, with insights to some generic questions.
