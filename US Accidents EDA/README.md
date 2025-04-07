@@ -1,6 +1,6 @@
 ## US Accidents Exploratory Data Analysis
-Link to the Dataset : https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents
-Link to the Medium Article : https://medium.com/@itti7455/exploratory-data-analysis-a0a4f2b5ea41
+- Link to the Dataset : https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents
+- Link to the Medium Article : https://medium.com/@itti7455/exploratory-data-analysis-a0a4f2b5ea41
 
 #### Significant Findings:
 - California had faced the highest number of accidents.
