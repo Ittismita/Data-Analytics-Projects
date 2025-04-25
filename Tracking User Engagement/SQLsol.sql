@@ -12,7 +12,7 @@ SELECT
     date_purchased AS date_start, 
     CASE 
 		WHEN plan_id=0 THEN DATE_ADD(date_purchased,INTERVAL 1 MONTH)
-        WHEN plan_id=1 THEN DATE_ADD(date_purchased,INTERVAL 13 MONTH)
+        WHEN plan_id=1 THEN DATE_ADD(date_purchased,INTERVAL 3 MONTH)
         WHEN plan_id=2 THEN DATE_ADD(date_purchased,INTERVAL 12 MONTH)
         WHEN plan_id=3 THEN 0
 	END AS date_end, 
