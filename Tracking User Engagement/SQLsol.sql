@@ -264,7 +264,7 @@ SELECT COUNT(DISTINCT student_id)
 FROM student_video_watched
 WHERE YEAR(date_watched)=2022;
 
--- A student watched a lecture in Q2 2022 and Q2 2022=640
+-- A student watched a lecture in Q2 2021 and Q2 2022=640
 SELECT COUNT(DISTINCT student_id)
 FROM (
 	SELECT DISTINCT student_id
