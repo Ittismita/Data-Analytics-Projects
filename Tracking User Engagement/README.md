@@ -139,7 +139,7 @@ What was the probability that a student had watched a lecture in Q2 2021, given 
 
 Using Bayes’ Rule to solve:
 
-P(A|B) = P(B|A)×P(A)P(B)
+P(A|B) = P(B|A)×P(A)/P(B)
 
 P(B|A) = 640/7639
 
