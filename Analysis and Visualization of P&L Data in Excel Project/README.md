@@ -3,20 +3,24 @@
 As a first-year analyst in the internal M&A division of Nike, prepare an Excel profit and loss (P&L) table for analysis, with details of the earnings before interest and taxes (EBIT) level. 
 
 Familiarizing with the structure of the data:
-Ticker : ADS GY Equity
-Company :	adidas AG
-Periodicity :	A
-Currency :	USD
-Filing Status Mnemonic :	MR
-Filing :	Most Recent
-Units :	MLN
+1. Ticker : ADS GY Equity
+2. Company :	Adidas AG
+3. Periodicity :	A
+4. Currency :	USD
+5. Filing Status Mnemonic : MR
+6. Filing :	Most Recent
+7. Units :	MLN
 
-1. Company Ticker : Abbreviation used as a shortcut to identify public companies in financial databases. It is vital to know the company ticker as to know which company's data we are going to work with.
-2. Periodicity of Financial Statements : In this context, 'A' indicates that the data consists of actual figures and not estimates or projections. It helps in determining the nature of the financial information we are analyzing.
-3. Currency : Vital for accurate analysis.
-4. Measuring Unit : The information is often summarized in a particular unit, such as millions. This tells us how to interpret numerical values throughpout the data.
+Company Ticker : Abbreviation used as a shortcut to identify public companies in financial databases. It is vital to know the company ticker as to know which company's data we are going to work with.
 
-In Adidas's financial dataset 
+Periodicity of Financial Statements : In this context, 'A' indicates that the data consists of actual figures and not estimates or projections. It helps in determining the nature of the financial information we are analyzing.
+
+Currency : Vital for accurate analysis.
+
+Measuring Unit : The information is often summarized in a particular unit, such as millions. This tells us how to interpret numerical values throughpout the data.
+
+In Adidas's financial dataset :
+
 To understand the company's revenue structure and performance, business is divided into 3 primary product or brand areas - Wholesale, Retail and Other Businesses
 
 Bloomberg or similar financial systems often employ leading spaces to enhance user experience and clarity reading. These spaces help distinguish between main categories, sub categories or further breakdowns. 
@@ -25,7 +29,7 @@ Hence, leading spaces were preserved for lookup functions and for a hierarchial 
 ![Dashboard](https://github.com/Ittismita/Data-Analytics-Projects/blob/main/Analysis%20and%20Visualization%20of%20P%26L%20Data%20in%20Excel%20Project/viz./dta.png)
 
 
-Bloomberg's Format:
+Bloomberg's Format :
 1. Mnemonic field contains values that mark the start of a breakdown.
 2. 
 
@@ -40,7 +44,21 @@ Bloomberg's Format:
 
 ## 2. Looked up Source Data, Calculated Margins and Growth Rates
 
-1. Utilized nested lookups -> Considered two criteria : financial items and period under analysis -> Used INDEX, MATCH, MATCH combination
+1. Utilized nested lookups -> Considered two criteria : financial items and period under analysis -> Used INDEX, MATCH (returned the row number), MATCH (returned the column number) combination
+2. Added a minus sign before the costs ->Used Custom format (####;####) to hide the negative signs -> for accurate summing up of subtotals -> Used SUM function for calculating Revenue.
+3. Used INDEX MATCH MATCH combination to fill up other cells.
+4. Added other considerables to the report -> to understand the firm's Gross Profit and EBIT margins andtheir five-year revenue growth rate -> Used CAGR to measure the revenue growth rate.
+5. Cross-checked using data from source sheet.
+6. Some formulas applied across the report:
+   
+   1. Cost of Revenue = Revenue - Gross Profit
+   2. Profit % = Profit / Revenue * 100
+   3. EBIT % = EBIT / Revenue * 100
+   4. CAGR =  (Final Value(value in 2023) / Initial Value(value in 2019))<sup>1/4</sup>-1
+  
+## 3. Created a Visualization
+1. Created a stacked column chart
+
 
 
 
