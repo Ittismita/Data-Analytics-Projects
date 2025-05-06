@@ -57,7 +57,8 @@ Bloomberg's Format :
    4. CAGR =  (Final Value(value in 2023) / Initial Value(value in 2019))<sup>1/4</sup>-1
   
 ## 3. Created a Visualization
-1. Created a stacked column chart
+1. Created a stacked column chart illustrating how business lines contributed to the revenue.
+2. 
 
 
 
