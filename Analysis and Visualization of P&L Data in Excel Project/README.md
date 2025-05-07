@@ -1,5 +1,5 @@
 # Analysis and Visualization of P&L Data in Excel 
-### Senario: 
+### Scenario: 
 As a first-year analyst in the internal M&A division of Nike, prepare an Excel profit and loss (P&L) table for analysis, with details of the earnings before interest and taxes (EBIT) level. 
 
 Familiarizing with the structure of the data:
@@ -26,12 +26,11 @@ To understand the company's revenue structure and performance, business is divid
 Bloomberg or similar financial systems often employ leading spaces to enhance user experience and clarity reading. These spaces help distinguish between main categories, sub categories or further breakdowns. 
 
 Hence, leading spaces were preserved for lookup functions and for a hierarchial view of the information.
-![Dashboard](https://github.com/Ittismita/Data-Analytics-Projects/blob/main/Analysis%20and%20Visualization%20of%20P%26L%20Data%20in%20Excel%20Project/viz./dta.png)
+![sheet](https://github.com/Ittismita/Data-Analytics-Projects/blob/main/Analysis%20and%20Visualization%20of%20P%26L%20Data%20in%20Excel%20Project/viz./dta.png)
 
 
 Bloomberg's Format :
 1. Mnemonic field contains values that mark the start of a breakdown.
-2. 
 
 ## 1. Created P&L Structure and Applied Formatting
 
@@ -58,8 +57,25 @@ Bloomberg's Format :
   
 ## 3. Created a Visualization
 1. Created a stacked column chart illustrating how business lines contributed to the revenue.
-2. 
+2. Added a secondary axis for displaying the EBIT% as a line chart.
+3. Formatted the axes, data labels, axis labels and chart design.
 
+   ![chart](https://github.com/Ittismita/Data-Analytics-Projects/blob/main/Analysis%20and%20Visualization%20of%20P%26L%20Data%20in%20Excel%20Project/viz./PL_chart.png)
 
+## 4. Interpreted Data
 
+![sheet1](https://github.com/Ittismita/Data-Analytics-Projects/blob/main/Analysis%20and%20Visualization%20of%20P%26L%20Data%20in%20Excel%20Project/viz./PL.png)
+
+### Growth Analysis
+1. The company exhibited steady revenue growth, with a CAGR of ~7.4% from FY 2019 to FY 2023. This consistent growth is indicative of a solid and expanding business.
+2. The Retail segment stood out as the fastest-growing sector, with a CAGR of 14.49%, while the Wholesale segment saw the slowest growth, with a CAGR of 4.84%.
+3. The Other Businesses segment also showed commendable growth with a CAGR of 9.64%.
+   
+### Profitability Analysis
+The company's profitability has improved remarkably over the period. 
+1. The gross profit grew at a CAGR of 9.72%, and the gross profit margin increased from 46% to 50%. This uptick in margin demonstrates that the company has effectively managed its direct costs and possibly increased sales prices.
+2. Furthermore, EBIT grew at a remarkable CAGR of 22.88%, with the EBIT percentage rising from 5% to 9%. This growth signifies better control over operating costs and an enhancement in operational efficiency.
+
+## Summary
+The financial data from FY 2019 to FY 2023 reflects a robust performance for the company in growth and profitability. Revenue growth has been steady, with strength in the Retail segment. Profitability has not only been maintained but has also seen significant improvements across key metrics, including substantial growth in EBIT. This balance of top-line growth with bottom-line improvements indicates a well-managed expansion. Adidas demonstrated a robust competitive position in the industry and a sustainable growth trajectory. The combination of growth in both revenue and profitability metrics suggests strategic execution in market penetration and cost control.
 
