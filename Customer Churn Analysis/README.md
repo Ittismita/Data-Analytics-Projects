@@ -12,5 +12,6 @@ To create an ETL (Extract, Transform, Load) process in a database and further vi
 - Find a way to forecast upcoming churners.
 
 ## Action
-### ETL Process in MySQL
+### ETL Process in SQL Server
+
 
