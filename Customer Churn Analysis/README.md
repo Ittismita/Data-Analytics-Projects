@@ -114,7 +114,7 @@ Power BI Dashboard link -
 - Created DAX Measures:
  1. Total Predicted Churners = “Total Predicted Churners : ” & COUNT(Predictions[Customer_ID])
   
-- Created Viz.
+- Created Viz. 
   2. CHURN PREDICTION PAGE:
   
 
