@@ -134,8 +134,8 @@ Power BI Dashboard link -
   2. Built preprocessing and modelling pipelines.
      - Using Column Transformer from sklearn.compose, built preprocessing pipeline to scale(using StandardScaler) and encode (using One Hot Encoder and Ordinal Encoder) columns.
      - Using Pipeline sklearn.pipeline, built modelling pipeline, chaining the preprocessing pipeline with the specific models.
-  4. Implemented and compared performance of classification models like Logistic Regression, Random Forest CLassifier and XGBoost Classifier.
-  5. Evaluated model performance on test data, focusing on recall and precision for the churn class (positive class), since correctly identifying churners is more valuable than minimizing false positives.
+  3. Implemented and compared performance of classification models like Logistic Regression, Random Forest CLassifier and XGBoost Classifier.
+  4. Evaluated model performance on test data, focusing on recall and precision for the churn class (positive class), since correctly identifying churners is more valuable than minimizing false positives.
      Model Performance Interpretation:
      1. Overall Accuracy
         - Logistic Regression: 82%
@@ -175,8 +175,8 @@ Power BI Dashboard link -
     - Logistic Regression is simpler and interpretable but underperforms in precision and recall compared to ensemble methods.
     - XGBoost is competitive, offering slightly higher recall (better at catching churners) but lower precision than Random Forest.
 
-  6. Predicted churner based on all three models, on vw_joining_data.
-  7. Merged the predictions with original data and saved into a csv file.
+  5. Predicted churner based on all three models, on vw_joining_data.
+  6. Merged the predictions with original data and saved into a csv file.
 
 ### Add another page to Dashboard - Customer Churn Analysis
 - Imported new predictions made on newly joined customers using Python Script
