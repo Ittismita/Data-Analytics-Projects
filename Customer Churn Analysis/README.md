@@ -108,8 +108,15 @@ Power BI Dashboard link -
 
 
 
-### Added another page to Dashboard - Customer Churn Analysis
-  2. CHURN PREDICTION -
+### Add another page to Dashboard - Customer Churn Analysis
+- Imported new predictions made on newly joined customers using Python Script
+
+- Created DAX Measures:
+ 1. Total Predicted Churners = “Total Predicted Churners : ” & COUNT(Predictions[Customer_ID])
+  
+- Created Viz.
+  2. CHURN PREDICTION PAGE:
+  
 
 
 
